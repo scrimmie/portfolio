@@ -1,8 +1,19 @@
+import AboutMe from "./aboutMe";
+import Blog from "./blog";
+import DevWork from "./devWork";
+import ProfessionalExperience from "./professionalExperience";
+import Projects from "./projects";
+import SplashPage from "./splashPage";
 
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-3xl font-bold underline text-red-600 font-JetbrainsMono">Hello world! test2</h1>
-    </main>
+      <div className="relative">
+        <SplashPage />
+        <AboutMe />
+        <DevWork />
+        <ProfessionalExperience />
+        <Projects />
+        <Blog />
+      </div>
   );
 }
