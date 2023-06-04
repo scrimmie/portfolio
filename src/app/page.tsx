@@ -1,8 +1,20 @@
+import AboutMe from "./aboutMe";
+import Blog from "./blog";
+import DevWork from "./devWork";
+import Photography from "./photography";
+import Projects from "./projects";
+import SplashPage from "./splashPage";
 
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-3xl font-bold underline text-red-600 font-JetbrainsMono">Hello world! test2</h1>
-    </main>
+      <div className="relative">
+        {/* make each page look like a corresponding web page (aka camera menu for photography) */}
+        <SplashPage />
+        <AboutMe />
+        <DevWork />
+        <Projects />
+        <Photography/>
+        <Blog />
+      </div>
   );
 }
