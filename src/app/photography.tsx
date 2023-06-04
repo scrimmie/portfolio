@@ -1,11 +1,11 @@
 import BrowserWindow from "../components/browserWindow";
 import Image from "next/image";
 
-export default function AboutMe() {
+export default function Photography() {
   return (
     <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-transparent">
       <div className="container w-screen h-screen flex flex-col items-center justify-center p-10 py-16">
-        <BrowserWindow title="aboutMe.com">
+        <BrowserWindow title="photography.me">
           <div className="w-full h-full flex flex-row items-center justify-center">
             <div className="p-10 w-full h-full flex flex-row items-center justify-center">
               <Image
