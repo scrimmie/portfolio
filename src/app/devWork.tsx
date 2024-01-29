@@ -1,15 +1,16 @@
-import BrowserWindow from "../components/browserWindow";
+import BrowserWindow from '../components/browserWindow';
 
 export default function DevWork() {
   return (
-    <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-transparent">
-      <div className="container w-screen h-screen flex flex-col items-center justify-center p-10 py-16">
-        <BrowserWindow title="david.dev">
-          <div className="w-full h-full flex flex-row items-center justify-center">
-            <div className="p-10 w-full h-full flex flex-row items-center justify-center">
-
-            </div>
-            <p className="p-10 h-full w-full font-JetbrainsMono text-white text-2xl whitespace-pre-wrap flex flex-col items-center justify-center">
+    <div
+      className='sticky top-0 flex h-screen flex-col items-center justify-center bg-transparent'
+      id='developer'
+    >
+      <div className='container flex h-screen w-screen flex-col items-center justify-center p-10 py-16'>
+        <BrowserWindow title='david.dev'>
+          <div className='flex h-full w-full flex-row items-center justify-center'>
+            <div className='flex h-full w-full flex-row items-center justify-center p-10'></div>
+            <p className='flex h-full w-full flex-col items-center justify-center whitespace-pre-wrap p-10 font-JetbrainsMono text-2xl text-white'>
               I am a driven, passionate technologist who combines logic and
               discipline with interpersonal skills that power new thinking.
               <br /> <br /> As far back as I can remember, I&apos;ve had a
@@ -21,7 +22,6 @@ export default function DevWork() {
               technology can impact the lives of others.
             </p>
           </div>
-          
         </BrowserWindow>
       </div>
     </div>
