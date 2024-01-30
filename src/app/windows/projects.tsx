@@ -6,7 +6,7 @@ export default function Projects() {
       className='top-0 flex h-screen flex-col items-center justify-center bg-transparent'
       id='projects'
     >
-      <div className='container flex h-screen w-screen flex-col items-center justify-center p-10 py-16'>
+      <div className='flex h-screen w-screen flex-col items-center justify-center px-20 py-20'>
         <BrowserWindow title='projects.me'>
           <div>TEST</div>
         </BrowserWindow>

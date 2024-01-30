@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Photography() {
   return (
     <div className='top-0 flex h-screen flex-col items-center justify-center bg-transparent'>
-      <div className='container flex h-screen w-screen flex-col items-center justify-center p-10 py-16'>
+      <div className='flex h-screen w-screen flex-col items-center justify-center px-20 py-20'>
         <BrowserWindow title='photography.me'>
           <div className='flex h-full w-full flex-row items-center justify-center'>
             <div className='flex h-full w-full flex-row items-center justify-center p-10'>
